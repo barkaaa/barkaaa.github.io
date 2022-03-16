@@ -6,7 +6,7 @@ body
 {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  
 }
 main
 {
@@ -26,11 +26,12 @@ display:flex;
 }
 footer
 {
-display:flex
-  flex-end
+display:flex;
+  flex-end;
 }
 header
 {
-display:flex
+display:flex;
 justify-content: center;
+  flex-shrink:<0>;
 }
