@@ -23,15 +23,22 @@ article
 {
 display:flex;
   flex:3;
+  flex-direction: column;
+  align-content:flex-start;
 }
 footer
 {
 display:flex;
-  flex-end;
+align-items: flex-end;
 }
 header
 {
 display:flex;
 justify-content: center;
   flex-shrink:<0>;
+}
+h
+{
+display:flex;
+flex-direction: row;
 }
