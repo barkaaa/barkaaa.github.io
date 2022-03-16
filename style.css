@@ -2,6 +2,14 @@ a:hover
 {
 color:green
 }
+
+header
+{
+display:flex;
+flex-direction:column;
+justify-content: start;
+  flex-shrink:<0>;
+}
 body  
 {
   display: flex;
@@ -29,13 +37,8 @@ display:flex;
 footer
 {
 display:flex;
+justify-content: flex-start;
 align-items: flex-end;
-}
-header
-{
-display:flex;
-justify-content: center;
-  flex-shrink:<0>;
 }
 h
 {
