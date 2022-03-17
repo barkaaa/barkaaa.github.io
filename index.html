@@ -63,14 +63,16 @@
     </footer>
 </body>
     <script>
-		var ele = document.getElementById("ele");
-		var div = document.getElementById("div");
-		ele.onload = function(){
-			if(ele.naturalHeight < div.offsetHeight){
-				ele.style.width = "auto";
-				ele.style.height = "100%";
-			}
-		}
+		<script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
   		
 	</script>
 </html>
