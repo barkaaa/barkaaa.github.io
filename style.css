@@ -1,29 +1,6 @@
-<style type="text/css">
-	body{
-		background: url("https://images.pexels.com/photos/2118607/pexels-photo-2118607.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat center center fixed;
-                /*兼容浏览器版本*/
-                -webkit-background-size: cover;
-                -o-background-size: cover;                
-                background-size: cover;
-	}
-	</style>
 a:hover
 {
 color:green
-}
-.navbox{
-    width: 960px;
-    height: 40px;
-    margin: 20px auto;
-    background: #08c;
-}
-.navbox >ul>li{
-    float: left;
-    width: 160px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    font-size: 16px;
 }
 header
 {
