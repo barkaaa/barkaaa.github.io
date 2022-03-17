@@ -1,60 +1,21 @@
 a:hover
 {
-color:green
+color:green;
 }
-.navbox{
-    width: 960px;
-    height: 40px;
-    margin: 20px auto;
-    background: #08c;
-}
-.navbox >ul>li{
-    float: left;
-    width: 160px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    font-size: 16px;
-}
-header
+body
 {
 display:flex;
-flex-direction:column;
-justify-content: start;
-  flex-shrink:<0>;
-}
-body  
-{
-  display: flex;
-  justify-content: center;
-  
-}
+flex-direction:column;}
 main
 {
 display:flex;
-  justify-content: center;
-  flex:auto;
+  flex:auto
 }
 aside
 {
-display:flex;
-  flex:1;
+flex:1
 }
 article
 {
-display:flex;
-  flex:3;
-  flex-direction: column;
-  align-content:flex-start;
-}
-footer
-{
-display:flex;
-justify-content: flex-start;
-align-items: flex-end;
-}
-h
-{
-display:flex;
-flex-direction: row;
+flex:3
 }
