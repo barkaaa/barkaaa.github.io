@@ -10,18 +10,18 @@ a:hover
 {
 color:green
 }
-header
-{
-display:flex;
-flex-direction:column;
-justify-content: start;
-}
 body  
 {
   display: flex;
-  justify-content: center;
-  
+  justify-content: space-evenly;
+  align-item:center;
+  }
+header
+{
+display:flex;
+justify-content: start;
 }
+
 main
 {
 display:flex;
@@ -30,8 +30,10 @@ display:flex;
 }
 aside
 {
-display:flex;
+background:blue;
+  display:flex;
   flex:1;
+  
 }
 article
 {
@@ -45,8 +47,4 @@ footer
 display:flex;
 justify-content: center;
 align-items: flex-end;
-}
-h
-{
-font-family:"Noto+Sans+SC:wght@700"
 }
