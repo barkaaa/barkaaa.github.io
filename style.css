@@ -1,3 +1,11 @@
+/*display:flex;开始flex布局
+横向
+justify-content:flex-end/center/space-evenly/space-between;右对齐/居中对齐/平分空间/两端对齐
+竖向
+align-item:flex-end/center;靠下对齐/居中对齐
+改变轴模式
+flex-direction:column;
+flex:1; flex:2;flex:1;调整块的宽度*/
 a:hover
 {
 color:green
@@ -40,6 +48,5 @@ align-items: flex-end;
 }
 h
 {
-display:flex;
-flex-direction: row;
+font-family:"Noto+Sans+SC:wght@700"
 }
