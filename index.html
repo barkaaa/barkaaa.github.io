@@ -8,6 +8,11 @@
     <title>Parrot</title>
     <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
+    <style>
+			.div{width:400px;height: 400px;border:1px solid #ddd; overflow: hidden;}
+			img{width: 100%;}
+		</style>
+
 </head>
 
 <body>
@@ -26,33 +31,35 @@
             </ul>
         <li><a href="https://barkaaa.github.io/siyang.html">饲养</a>
             <ul class="subnav">
-            <li><a href="#ba">购买渠道</a></li>
-            <li><a href="#bb">准备工作</a></li>        
-            <li><a href="#bc">手养教程</a></li>
-            <li><a href="#bd">常见疾病</a></li>
+            <li><a href="siyang.html#ba">购买渠道</a></li>
+            <li><a href="siyang.html#bb">准备工作</a></li>        
+            <li><a href="siyang.html#bc">手养教程</a></li>
+            <li><a href="siyang.html#bd">常见疾病</a></li>
             </ul>
          <li><a href="https://barkaaa.github.io/website.html">网站</a>
             </ul> 
             </div>
         </aside>
     <article>
-<h1>鹦鹉介绍</h1>
-<a href="https://www.zhihu.com/topic/20605729/intro"><img src="https://img.xiaokeai.com/uploadfile/2020/0624/20200624021254153.jpg" alt="intro"/></a>
-    <p>鹦鹉（Parrot）是鹦形目（学名：Psittaciformes）众多羽毛艳丽、爱叫的鸟。典型的攀禽，对趾型足，两趾向前两趾向后，适合抓握，鸟喙强劲有力，可以食用硬壳果。羽色鲜艳，常被作为宠物饲养。
-       它们以其美丽的羽毛，善学人语技能的特点，更为人们所欣赏和钟爱。</p>
-
-<h2>鹦鹉饲养</h2>
-    <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1710%2F27%2Fc10%2F64699524_1509077444476_mthumb.jpg&refer=http%3A%2F%2Fimg.pconline.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650020861&t=58cd6713f180d271393e12d2592af68c" alt="maroon-bellied Conure" class="small" id="smart-image"/>   
-    <p>个人不办证饲养品种：目前来说和以前差不多，虎皮鹦鹉（全系）牡丹鹦鹉（面类）玄凤鹦鹉（全系）</p>
-    <p>费氏牡丹，锥尾绿颊鹦鹉，和尚鹦鹉，紫腹吸蜜鹦鹉，在2021年4月的国家林业局文件中已允许试点省份可以合法私人养殖并贩售。</p> 
-    <p>1.在法律政策开放的地区购买。2.要有标识，足环信息才能买。3.去林业部门报备，配合检疫。4.不能繁殖不能出售。</p>   
-
-<h3>鹦鹉视频</h3>
-<p>详见<a href="https://barkaaa.github.io/bilibili.html">Bilibili</a>
+        <div class="div" id="div">
+        <img src="https://images.pexels.com/photos/9542229/pexels-photo-9542229.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" id="ele"/>
+        </div>
+        <h1></h1>
     </article>
     </main>
     <footer>
         by <a href="https://www.zhihu.com/people/liu-bo-yang-88-69">CGTN</a> for <a href="https://www.adalab.cn" target="_blank">Adalab</a>
     </footer>
 </body>
+    <script>
+		var ele = document.getElementById("ele");
+		var div = document.getElementById("div");
+		ele.onload = function(){
+			if(ele.naturalHeight < div.offsetHeight){
+				ele.style.width = "auto";
+				ele.style.height = "100%";
+			}
+		}
+  		
+	</script>
 </html>
