@@ -1,3 +1,5 @@
+a{
+color:MediumSeaGreen;}
 a:hover
 {
 color:lightblue;
@@ -37,6 +39,20 @@ font-family: "KaiTi", Times, serif;
 line-height:0.7;
 }
 p.zhengwen
+{
+font-size:1em;
+font-family: "HYQihei 60S", Times, serif;
+line-height:1.2;  font-weight: light;
+color:white;
+}
+ol
+{
+font-size:1em;
+font-family: "HYQihei 60S", Times, serif;
+line-height:1.2;  font-weight: light;
+color:white;
+}
+ul
 {
 font-size:1em;
 font-family: "HYQihei 60S", Times, serif;
@@ -86,7 +102,13 @@ width: 205px;
   position: fixed;
 }
 article
-{text-align: center;}
+{
+flex:3
+float:left;
+position: relative;
+width:800px;
+text-align: center;
+background-color:rgba(255, 255, 255, 0.2);}
 h1
 {
 color:white;}
@@ -149,12 +171,7 @@ li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
-article
-{
-flex:3
-float:left;
-position: relative;
-}
+
 footer {
 color:white;  
 padding: 20px;
