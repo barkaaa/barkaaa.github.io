@@ -6,7 +6,8 @@ html
 {
 background-image:url("https://images.pexels.com/photos/2118607/pexels-photo-2118607.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260")
 background-repeat: no-repeat;
-background-size:cover;}
+background-position:center;
+  background-size:cover;}
 body
 {
 display:flex;
