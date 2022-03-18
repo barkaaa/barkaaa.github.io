@@ -2,6 +2,9 @@ a:hover
 {
 color:green;
 }
+html
+{
+background-image:url("https://images.pexels.com/photos/2118607/pexels-photo-2118607.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260")}
 body
 {
 display:flex;
@@ -18,4 +21,7 @@ flex:1
 article
 {
 flex:3
+}
+header
+{
 }
