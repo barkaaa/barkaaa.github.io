@@ -4,13 +4,14 @@ color:green;
 }
 html
 {
+}
+body
+{
 background-image:url("https://images.pexels.com/photos/2118607/pexels-photo-2118607.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260")
 background-repeat: no-repeat;
 background-position:center;
-  background-size:cover;}
-body
-{
-display:flex;
+  background-size:cover;
+  display:flex;
 flex-direction:column;
   border: 1px solid white;
   border-radius: 8px;}
