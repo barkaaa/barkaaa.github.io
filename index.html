@@ -14,42 +14,76 @@
 	    body
 	    {
 	    font-family="微软雅黑" ;}
-	   
+	    h1{
+	    font-weight=bolder;}
+	    p{font-weight=lighter;}
 		</style>
 
 </head>
 
 <body>
+
     <header>
-     <img src="https://img2.baidu.com/it/u=369924770,3976772511&fm=253&fmt=auto&app=138&f=JPEG?w=817&h=500" alt="banner"/>
-    </header>
+  <p class="header">Introduction to parrots</p>
+  <p class="one">Parrots, along with ravens, crows, jays, and magpies, are among the most intelligent birds.</p>
+        </header>
 <main>
     <aside>
-        <ul>
+<div class="logo"> 
+<img src="https://img2.baidu.com/it/u=369924770,3976772511&fm=253&fmt=auto&app=138&f=JPEG?w=817&h=500" alt="banner"/>
+        </div>
+<ul>
         <li><a href="https://barkaaa.github.io/">主页面</a></li>
-        <li><a href="https://barkaaa.github.io/bilibili.html">了解鹦鹉</a>
-            <ul>
-            <li><a href="bilibili.html#aa">简介</a></li>
-            <li><a href="bilibili.html#ab">国内可养</a></li>    
-            </ul>
-        <li><a href="https://barkaaa.github.io/siyang.html">饲养</a>
-            <ul>
-            <li><a href="siyang.html#ba">购买渠道</a></li>
-            <li><a href="siyang.html#bb">准备工作</a></li>        
-            <li><a href="siyang.html#bc">手养教程</a></li>
-            <li><a href="siyang.html#bd">食物选择</a></li>
-            <li><a href="siyang.html#be">常见疾病</a></li>
-		</ul>
+        <li class="dropdown">
+      	<a href="https://barkaaa.github.io/bilibili.html" class="liaojie">了解鹦鹉</a>
+
+            <div class="dropdown-content">
+            <a href="bilibili.html#aa">简介</a>
+            <a href="bilibili.html#ab">国内可养</a>   
+            </div>
+	</li>
+        <li class="dropdown">
+	<a href="https://barkaaa.github.io/siyang.html" class="siyang">饲养</a>
+            <div class="dropdown-content">
+            <a href="siyang.html#ba">购买渠道</a>
+            <a href="siyang.html#bb">准备工作</a>        
+            <a href="siyang.html#bc">手养教程</a>
+            <a href="siyang.html#bd">食物选择</a>
+            <a href="siyang.html#be">常见疾病</a>
+	</div>
+	</li>
          <li><a href="https://barkaaa.github.io/website.html">网站</a>
             </ul> 
         </aside>
     <article>
-        <img src="https://images.pexels.com/photos/9542229/pexels-photo-9542229.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" id="ele"/>
-        <h1>there is noting</h1>
+<div class="tupian">        
+<img src="https://images.pexels.com/photos/1559384/pexels-photo-1559384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
+<div class="huanying">马上开始了解鹦鹉</div>
+</div>
     </article>
-    </main>
+    </main><div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-barkaaa-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <footer>
         by <a href="https://www.zhihu.com/people/liu-bo-yang-88-69">Liuboyang</a> for <a href="https://www.adalab.cn" target="_blank">Adalab</a>
     </footer>
+
+<script id="dsq-count-scr" src="//https-barkaaa-github-io.disqus.com/count.js" async></script>
 </body>
 </html>
