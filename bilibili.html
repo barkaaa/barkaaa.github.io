@@ -3,57 +3,96 @@
 <html lang="zh-CN">
 
 <head>
+    
+<script src="thumbnail.js"></script>
     <meta charset="utf-8">
     <title>Parrot</title>
-    <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
+<link href="https://www.adalab.cn/admission.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
-</head>
+    <style>
 
+	    body
+	    {
+	    font-family="微软雅黑" ;}
+	    h1{
+	    font-weight=bolder;}
+	    p{font-weight=lighter;}
+		</style>
+
+</head>
 <body>
+
     <header>
-     <img src="https://img2.baidu.com/it/u=369924770,3976772511&fm=253&fmt=auto&app=138&f=JPEG?w=817&h=500" alt="banner"/>
-    </header>
+  <p class="header">Introduction to parrots</p>
+  <p class="one">Parrots, along with ravens, crows, jays, and magpies, are among the most intelligent birds.</p>
+        </header>
 <main>
-    <aside>
-        <div class="navbox">
-        <ul class="clearfix">
+      <aside>
+<div class="logo"> 
+<img src="https://img2.baidu.com/it/u=369924770,3976772511&fm=253&fmt=auto&app=138&f=JPEG?w=817&h=500" alt="banner"/>
+        </div>
+<ul>
         <li><a href="https://barkaaa.github.io/">主页面</a></li>
-        <li><a href="https://barkaaa.github.io/bilibili.html">了解鹦鹉</a>
-            <ul class="subnav">
-            <li><a href="bilibili.html#aa">简介</a></li>
-            <li><a href="bilibili.html#ab">国内可养</a></li>    
-            </ul>
-        <li><a href="https://barkaaa.github.io/siyang.html">饲养</a>
-            <ul class="subnav">
-            <li><a href="#ba">购买渠道</a></li>
-            <li><a href="#bb">准备工作</a></li>        
-            <li><a href="#bc">手养教程</a></li>
-            <li><a href="#bd">常见疾病</a></li>
-            </ul>
+        <li class="dropdown">
+      	<a href="https://barkaaa.github.io/bilibili.html" class="liaojie">了解鹦鹉</a>
+
+            <div class="dropdown-content">
+            <a href="bilibili.html#aa">简介</a>
+            <a href="bilibili.html#ab">国内可养</a>   
+            </div>
+	</li>
+        <li class="dropdown">
+	<a href="https://barkaaa.github.io/siyang.html" class="siyang">饲养</a>
+            <div class="dropdown-content">
+            <a href="siyang.html#ba">购买渠道</a>
+            <a href="siyang.html#bb">准备工作</a>        
+            <a href="siyang.html#bc">手养教程</a>
+            <a href="siyang.html#bd">食物选择</a>
+            <a href="siyang.html#be">常见疾病</a>
+	</div>
+	</li>
          <li><a href="https://barkaaa.github.io/website.html">网站</a>
             </ul> 
-            </div>
         </aside>
     <article>
 
 <h1>鹦鹉介绍篇</h1>
-<div id = "aa"><h2>简介</h2></div>
-<a href="https://www.zhihu.com/topic/20605729/hot">鹦鹉</a>（Parrot）是鹦形目（学名：Psittaciformes）众多羽毛艳丽、爱叫的鸟。典型的攀禽，对趾型足，两趾向前两趾向后，
-   适合抓握，鸟喙强劲有力，可以食用硬壳果。羽色鲜艳，常被作为宠物饲养。 它们以其美丽的羽毛，善学人语技能的特点，更为人们所欣赏和钟爱。
+<h2>简介</h2>
+<div id = "zhengwen"><p class="zhengwen"><a href="https://www.zhihu.com/topic/20605729/hot">鹦鹉</a>（Parrot）是鹦形目（学名：Psittaciformes）众多羽毛艳丽、爱叫的鸟。<br>典型的攀禽，对趾型足，两趾向前两趾向后，
+   适合抓握，鸟喙强劲有力，可以食用硬壳果。<br>羽色鲜艳，常被作为宠物饲养。 它们以其美丽的羽毛，善学人语技能的特点，更为人们所欣赏和钟爱。
 <iframe src="//player.bilibili.com/player.html?aid=379418957&bvid=BV1Ef4y1K7Fm&cid=450978428&page=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 
-<div id = "aa"><h3>国内可养鹦鹉</h3><div>
-        <p>个人不办证饲养品种：目前来说和以前差不多，
+<h2>国内可养鹦鹉</h2>
+        <p class="zhengwen">个人不办证饲养品种：目前来说和以前差不多，
             <a href="https://baike.baidu.com/item/%E8%99%8E%E7%9A%AE%E9%B9%A6%E9%B9%89/228788">虎皮鹦鹉</a>（全系）
             <a href="https://baike.baidu.com/item/%E7%89%A1%E4%B8%B9%E9%B9%A6%E9%B9%89%E5%B1%9E?fromtitle=%E7%89%A1%E4%B8%B9%E9%B9%A6%E9%B9%89&fromid=5028357">牡丹鹦鹉</a>（面类）
-            <a href="https://baike.baidu.com/item/%E7%8E%84%E5%87%A4%E9%B9%A6%E9%B9%89">玄凤鹦鹉</a>（全系）
+            <a href="https://baike.baidu.com/item/%E7%8E%84%E5%87%A4%E9%B9%A6%E9%B9%89">玄凤鹦鹉</a>（全系）<br>
 
 费氏牡丹，锥尾绿颊鹦鹉，和尚鹦鹉，紫腹吸蜜鹦鹉，在2021年4月的国家林业局文件中已允许试点省份可以合法私人养殖并贩售。
 
-1.在法律政策开放的地区购买。2.要有标识，足环信息才能买。3.去林业部门报备，配合检疫。4.不能繁殖不能出售。</p>
-        <p>返回<a href="index.html">主页面</a></p>
+<br>1.在法律政策开放的地区购买。<br>2.要有标识，足环信息才能买。<br>3.去林业部门报备，配合检疫。<br>4.不能繁殖不能出售。</p>
+</div>
     </article>
     </main>
+	<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-barkaaa-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <footer>
        by <a href="https://www.zhihu.com/people/liu-bo-yang-88-69">CGTN</a> for <a href="https://www.adalab.cn" target="_blank">Adalab</a>
     </footer>
