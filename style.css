@@ -7,10 +7,11 @@ html
 }
 body
 {
-background-image:url("https://img.tukuppt.com/ad_preview/00/21/96/5c9a37d0c1e61.jpg!/fw/980");
+background-image:url("https://images.pexels.com/photos/2118607/pexels-photo-2118607.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 background-repeat: no-repeat;
 background-position:center;
   background-size:cover;
+  background-attachment: fixed;
   display:flex;
 flex-direction:column;
   border: 1px solid white;
@@ -30,4 +31,5 @@ flex:3
 }
 header
 {
+  flex:auto
 }
