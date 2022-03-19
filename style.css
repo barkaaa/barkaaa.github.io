@@ -28,13 +28,13 @@ color: white;
 }
 p.header
 {
-font-size:2em;
+font-size:3.5em;
 font-family: "Arial", Times, sans-serif;
 line-height:0.7;  font-weight: bold;
 }
 
 p.one
-{font-size:10px;
+{font-size:16px;
 font-family: "KaiTi", Times, serif;
 font-weight: bold;
 line-height:0.7;
