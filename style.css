@@ -29,13 +29,14 @@ color: white;
 p.header
 {
 font-size:2em;
-font-family: "HYQihei 60S", Times, serif;
+font-family: "Arial", Times, sans-serif;
 line-height:0.7;  font-weight: bold;
 }
 
 p.one
-{font-size:5px;
+{font-size:10px;
 font-family: "KaiTi", Times, serif;
+font-weight: bold;
 line-height:0.7;
 }
 p.zhengwen
